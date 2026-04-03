@@ -228,6 +228,7 @@ Add to HEARTBEAT.md or create dedicated cron:
 
 ## Constraints
 
+- **Never include credentials**: No API keys, tokens, passwords, or secrets in knowledge/ files. Reference that a credential exists (e.g., "Makinari API key configured"), never the value.
 - **Never delete raw/**: Original sources are preserved forever
 - **Atomic updates**: One article per edit, avoid bulk rewrites
 - **Source attribution**: Every fact should trace to a raw/ file
